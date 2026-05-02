@@ -23,16 +23,9 @@ A command-line based personal expense tracker that stores and analyzes expenses 
 
 ## 🚀 Setup Instructions
 
-### 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/your-username/expense-tracker-python.git
-cd expense-tracker-python
-```
-
 ---
 
-### 2️⃣ Install Dependencies
+### 1️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -40,7 +33,7 @@ pip install -r requirements.txt
 
 ---
 
-### 3️⃣ Setup MySQL Database
+### 2️⃣ Setup MySQL Database
 
 Open MySQL Workbench and run:
 
@@ -60,7 +53,7 @@ CREATE TABLE expenses (
 
 ---
 
-### 4️⃣ Configure Environment Variables
+### 3️⃣ Configure Environment Variables
 
 Create a `.env` file in the root directory and add:
 
@@ -73,7 +66,7 @@ DB_NAME=expense_tracker
 
 ---
 
-### 5️⃣ Run the Application
+### 4️⃣ Run the Application
 
 ```bash
 python main.py
